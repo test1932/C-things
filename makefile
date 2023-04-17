@@ -16,7 +16,7 @@ namedFIFOreader: namedFIFOreader.c
 namedFIFOwriter: namedFIFOwriter.c
 	gcc namedFIFOwriter.c -o fifoW
 
-pipes: pipes.c
+pipes1: pipes.c
 	gcc pipes.c -o pipes
 
 sharedMem: sharedMem.c
@@ -25,8 +25,8 @@ sharedMem: sharedMem.c
 signalHandling: signalHandling.c
 	gcc signalHandling.c -o signals
 
-subreaping: subreaping.c
+subreaping1: subreaping.c
 	gcc subreaping -o subreaping
 
-variadic: variadic.c
+variadic1: variadic.c
 	gcc variadic.c -o variadic
